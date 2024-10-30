@@ -1,0 +1,31 @@
+body {
+  background: #53b8d1;
+  display: flex;
+  justify-content: center;
+  }
+
+#alice-container {
+  width: 90vh;
+  display: grid;
+  place-items: center;
+  grid-template-areas:
+    "a1 . ."
+    ". a2 ."
+    ". . a3";
+}
+
+#alice1 {
+  grid-area: a1;
+  transform: translateX(-300px); 
+}
+
+#alice2 {
+  grid-area: a2;
+  transform: translateX(-300px); 
+}
+
+#alice3 {
+  grid-area: a3;
+  transform: translateX(-300px); 
+}
+
